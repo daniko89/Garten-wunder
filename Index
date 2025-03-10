@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Održavanje vrtova</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Održavanje vrtova</h1>
+        <nav>
+            <ul>
+                <li><a href="#usluge">Usluge</a></li>
+                <li><a href="#galerija">Galerija</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Profesionalno održavanje vašeg vrta</h2>
+        <p>Pružamo vrhunske usluge za vaš vrt – dizajn, održavanje i više!</p>
+    </section>
+
+    <section id="usluge">
+        <h2>Naše usluge</h2>
+        <ul>
+            <li>Košenje trave</li>
+            <li>Obrezivanje biljaka</li>
+            <li>Dizajn vrta</li>
+            <li>Navodnjavanje</li>
+            <li>Sadnja biljaka</li>
+        </ul>
+    </section>
+
+    <section id="galerija">
+        <h2>Galerija</h2>
+        <div class="slike">
+            <img src="images/vrt1.jpg" alt="Vrt 1">
+            <img src="images/vrt2.jpg" alt="Vrt 2">
+            <img src="images/vrt3.jpg" alt="Vrt 3">
+        </div>
+    </section>
+
+    <section id="kontakt">
+        <h2>Kontaktirajte nas</h2>
+        <form>
+            <label for="ime">Ime:</label>
+            <input type="text" id="ime" name="ime" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="poruka">Poruka:</label>
+            <textarea id="poruka" name="poruka" required></textarea>
+
+            <button type="submit">Pošalji</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Održavanje vrtova | Sva prava pridržana.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
